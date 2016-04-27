@@ -29,6 +29,9 @@ input:focus{
 	width:80px;
 	text-align:center;
 }
+#Hottest_list img {
+    width:100%;
+}
 .Public_Navigation>ul>li>a{
 	color:#343435;
 	font:bold 18px/91px '微软雅黑';

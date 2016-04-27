@@ -88,7 +88,21 @@
 					<img src="./image/logo.png">
 					<div class="Login_Inner_Input">
 						<img src="./image/Man.png">
-						<asp:TextBox id="username"  runat="server"></asp:TextBox> 
+						<asp:TextBox id="username"  runat="server" style ="    border-image-source: initial;
+                                                                               border-image-slice: initial;
+                                                                               border-image-width: initial;
+                                                                               border-image-outset: initial;
+                                                                               border-image-repeat: initial;
+                                                                               height: 43px;
+                                                                               width: 80%;
+                                                                               font-size: 20px;
+                                                                               font-family: 微软雅黑;
+                                                                               color: rgb(68, 68, 68);
+                                                                               border: 0px;
+                                                                               background: rgba(255, 255, 255, 0);
+                                                                               padding: 0px;">
+
+						</asp:TextBox> 
 					</div>
 					<div class="Login_Inner_Input">
 						<img src="./image/Lock.png">
