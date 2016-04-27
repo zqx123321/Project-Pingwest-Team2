@@ -185,6 +185,6 @@ public partial class activityDisplay : System.Web.UI.Page
     protected void logout_Click(object sender, EventArgs e)
     {
         Session["name"] = null;
-        Response.Write("<script>alert('退出成功'),location='activityDiaplay.aspx'</script>");
+        Response.Write("<script>alert('退出成功'),location='activityDisplay.aspx'</script>");
     }
 }
